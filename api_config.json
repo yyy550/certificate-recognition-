@@ -1,0 +1,35 @@
+{
+  "glm4v": {
+    "api_key": "da8176cd94904c1dae6a642c631dba39.owpgK43t6ikefUCV",
+    "base_url": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "model": "glm-4v",
+    "max_tokens": 1000,
+    "temperature": 0.1,
+    "timeout": 60,
+    "max_retries": 3,
+    "retry_delay": 2
+  },
+  "baidu_ocr": {
+    "app_id": "your_baidu_app_id",
+    "api_key": "your_baidu_api_key",
+    "secret_key": "your_baidu_secret_key",
+    "url": "https://aip.baidubce.com/rest/2.0/ocr/v1/accurate_basic"
+  },
+  "aliyun_ocr": {
+    "access_key_id": "your_aliyun_access_key_id",
+    "access_key_secret": "your_aliyun_access_key_secret",
+    "region_id": "cn-hangzhou",
+    "endpoint": "https://ocr.cn-hangzhou.aliyuncs.com"
+  },
+  "tencent_ocr": {
+    "secret_id": "your_tencent_secret_id",
+    "secret_key": "your_tencent_secret_key",
+    "region": "ap-guangzhou",
+    "endpoint": "https://ocr.tencentcloudapi.com"
+  },
+  "local_ocr": {
+    "model_path": "models/paddle_ocr_model",
+    "use_gpu": false,
+    "lang": "ch"
+  }
+}
